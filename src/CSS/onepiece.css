@@ -1,0 +1,14 @@
+.pop-effect{
+    -fx-background-color:#d20909;
+    -fx-cursor:hand;
+    -fx-scale-x:1;
+    -fx-scale-y:1;
+    -fx-background-color:#b80707;
+    -fx-text-fill:rgb(255, 255, 255);
+    -fx-transition: all 0.5;
+}
+
+.pop-effect:hover{
+    -fx-scale-x: 1.1;
+    -fx-background-color:#a81d04;
+}

@@ -1,0 +1,25 @@
+.btns{
+    
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    
+}
+.btns:hover{
+    
+    -fx-background-color:#ffcc0080;
+}
+
+.pop-effect{
+    -fx-background-color:#f38804;
+    -fx-cursor:hand;
+    -fx-scale-x:1;
+    -fx-scale-y:1;
+    -fx-background-color:#db9b34;
+    -fx-text-fill:white;
+    -fx-transition: all 0.5;
+}
+
+.pop-effect:hover{
+    -fx-scale-x: 1.1;
+    -fx-background-color:#e3a513;
+}

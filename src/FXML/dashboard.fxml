@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.PerspectiveTransform?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginSignupController">
+   <children>
+      <ImageView fitHeight="603.0" fitWidth="805.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/GROUP%2313_MOVIE_DESIGN%20(3).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="141.0" fitWidth="96.0" layoutX="224.0" layoutY="299.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/387506908_1432540203961117_8367331525588584164_n.png" />
+         </image>
+         <effect>
+            <DropShadow height="14.5525" radius="6.928125" spread="0.56" width="15.16">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ImageView>
+      <Button fx:id="ponyoBtn" layoutX="224.0" layoutY="299.0" mnemonicParsing="false" onAction="#ponyoBtn" prefHeight="140.0" prefWidth="101.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <ImageView fitHeight="142.0" fitWidth="92.0" layoutX="342.0" layoutY="300.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/394706028_854109889510500_6175424818928491133_n.png" />
+         </image>
+         <effect>
+            <DropShadow height="20.52" radius="10.3675" spread="0.56" width="22.95">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ImageView>
+      <Button fx:id="screambtn" layoutX="337.0" layoutY="299.0" mnemonicParsing="false" onAction="#screamBtn" prefHeight="140.0" prefWidth="103.0" styleClass="btns" stylesheets="@../CSS/dashboard.css">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Label layoutX="41.0" layoutY="310.0" prefHeight="53.0" prefWidth="80.0" text="NOW">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+         <effect>
+            <DropShadow height="34.63" radius="18.275" width="40.47">
+               <color>
+                  <Color red="0.8947368264198303" green="0.8477907776832581" blue="0.8477907776832581" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Label layoutX="44.0" layoutY="336.0" prefHeight="53.0" prefWidth="156.0" text="SHOWING" textFill="#d90707">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <effect>
+            <DropShadow height="34.63" radius="18.275" width="40.47">
+               <color>
+                  <Color red="0.6578947305679321" green="0.6578947305679321" blue="0.6578947305679321" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Button layoutX="729.0" layoutY="9.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="45.0" style="-fx-background-radius: 18;" stylesheets="@../CSS/dashboard.css" text="error">
+         <effect>
+            <ColorAdjust brightness="-1.0" contrast="-0.36" hue="-0.81" saturation="-1.0" />
+         </effect>
+      </Button>
+      <Button layoutX="731.0" layoutY="8.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="49.0" style="-fx-background-radius: 18;" stylesheets="@../CSS/dashboard.css" text="USER">
+         <effect>
+            <PerspectiveTransform />
+         </effect>
+      </Button>
+      <Label layoutX="738.0" layoutY="13.0" text="USER" textFill="WHITE" />
+      <ImageView fitHeight="143.0" fitWidth="96.0" layoutX="454.0" layoutY="299.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/394389096_301857826035549_186102724144225882_n.png" />
+         </image>
+         <effect>
+            <DropShadow height="15.01" radius="6.07" spread="0.56" width="11.27">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ImageView>
+      <Label layoutX="53.0" layoutY="388.0" prefHeight="20.0" prefWidth="103.0" text="BOOK TICKETS" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow radius="4.75" width="0.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+               <input>
+                  <GaussianBlur />
+               </input>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Button fx:id="handmaidenbtn" layoutX="455.0" layoutY="300.0" mnemonicParsing="false" onAction="#handmaidenBtn" prefHeight="144.0" prefWidth="97.0" styleClass="btns" stylesheets="@../CSS/dashboard.css">
+         <effect>
+            <Lighting specularConstant="0.28">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <ImageView fitHeight="144.0" fitWidth="98.0" layoutX="567.0" layoutY="299.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/thewindrisespstr.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="15.09" radius="7.0625" spread="0.56" width="15.16">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ImageView>
+      <Button fx:id="homewindrisesbtn" layoutX="568.0" layoutY="298.0" mnemonicParsing="false" onAction="#homewindrisesBtn" prefHeight="144.0" prefWidth="95.0" styleClass="btns" stylesheets="@../CSS/dashboard.css">
+         <effect>
+            <Lighting specularConstant="0.28">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <ImageView fitHeight="144.0" fitWidth="98.0" layoutX="682.0" layoutY="300.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/EEAOpstr.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="15.09" radius="7.0625" spread="0.56" width="15.16">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ImageView>
+      <Button fx:id="eeaaobtn" layoutX="683.0" layoutY="301.0" mnemonicParsing="false" onAction="#eeaaoBtn" prefHeight="144.0" prefWidth="95.0" styleClass="btns" stylesheets="@../CSS/dashboard.css">
+         <effect>
+            <Lighting specularConstant="0.28">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant>
+                     <color>
+                        <Color red="0.9736841917037964" green="0.9736841917037964" blue="0.9736841917037964" />
+                     </color></Light.Distant>
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <ImageView fitHeight="250.0" fitWidth="800.0" layoutX="2.0" layoutY="43.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/HomeScenegif.gif" />
+         </image>
+      </ImageView>
+      <Button layoutX="403.0" layoutY="16.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="56.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" textFill="RED">
+         <font>
+            <Font name="System Bold" size="8.0" />
+         </font>
+         <effect>
+            <DropShadow height="28.79" radius="18.759999999999998" spread="0.38" width="48.25">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button layoutX="478.0" layoutY="15.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="49.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" textFill="RED">
+         <font>
+            <Font name="System Bold" size="8.0" />
+         </font>
+         <effect>
+            <DropShadow height="28.79" radius="18.759999999999998" spread="0.38" width="48.25">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button layoutX="771.0" mnemonicParsing="false" onAction="#home_close" prefHeight="25.0" prefWidth="30.0" styleClass="close" stylesheets="@../CSS/designLogin.css" text="X" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="homelogoutbtn" layoutX="527.0" layoutY="12.0" mnemonicParsing="false" onAction="#logoutBtn" prefHeight="25.0" prefWidth="60.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" textFill="WHITE" />
+      <Button fx:id="tomovies" layoutX="322.0" layoutY="11.0" mnemonicParsing="false" onAction="#toMovies" prefHeight="22.0" prefWidth="56.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" textFill="RED">
+         <font>
+            <Font name="System Bold" size="8.0" />
+         </font>
+         <effect>
+            <DropShadow height="28.79" radius="18.759999999999998" spread="0.38" width="48.25">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

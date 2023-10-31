@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.actionController">
+   <children>
+      <ImageView fitHeight="459.0" fitWidth="806.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/action.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="action2anime" layoutX="260.0" layoutY="49.0" mnemonicParsing="false" onAction="#action2Anime" prefHeight="25.0" prefWidth="85.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="action2allmovie" layoutX="160.0" layoutY="49.0" mnemonicParsing="false" onAction="#action2Allmovie" prefHeight="25.0" prefWidth="86.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="horrorbtn" layoutX="458.0" layoutY="49.0" mnemonicParsing="false" onAction="#horrorBtn" prefHeight="25.0" prefWidth="84.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="romancebtn" layoutX="557.0" layoutY="49.0" mnemonicParsing="false" onAction="#romanceBtn" prefHeight="25.0" prefWidth="84.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="action2logout" layoutX="471.0" layoutY="14.0" mnemonicParsing="false" onAction="#action2Logout" prefHeight="25.0" prefWidth="61.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button layoutX="401.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="68.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="action2home" layoutX="283.0" layoutY="14.0" mnemonicParsing="false" onAction="#action2Home" prefHeight="25.0" prefWidth="54.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Label layoutX="731.0" layoutY="16.0" text="USER" textFill="WHITE" />
+      <ImageView fitHeight="237.0" fitWidth="159.0" layoutX="218.0" layoutY="107.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/everythingeverywhereallatonce.jpg" />
+         </image>
+         <effect>
+            <DropShadow radius="12.92" width="32.68">
+               <color>
+                  <Color red="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="235.0" fitWidth="159.0" layoutX="424.0" layoutY="108.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/one%20piece%20film%20red%20poster%20en%202022%20_%20One%20piece%20film,%20Image%20film,%20Fond%20d'ecran%20dessin.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="36.57" radius="18.2725" width="38.52">
+               <color>
+                  <Color red="0.3499999940395355" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <Button fx:id="eeaaobtn" layoutX="218.0" layoutY="107.0" mnemonicParsing="false" onAction="#eeaaoBtn" prefHeight="235.0" prefWidth="159.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" text="Button" />
+      <Button fx:id="onepiecebtn" layoutX="423.0" layoutY="108.0" mnemonicParsing="false" onAction="#onepieceBtn" prefHeight="235.0" prefWidth="159.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" text="Button" />
+   </children>
+</AnchorPane>

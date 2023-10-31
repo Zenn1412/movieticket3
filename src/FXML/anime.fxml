@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.animeController">
+   <children>
+      <ImageView fitHeight="452.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/GROUP%2313_MOVIE_DESIGN%20(5).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="236.0" fitWidth="158.0" layoutX="133.0" layoutY="129.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/ponio.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="48.26" radius="23.63" width="48.26">
+               <color>
+                  <Color red="0.1304439753293991" green="0.10000000149011612" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <Button fx:id="ponyobtn" layoutX="133.0" layoutY="129.0" mnemonicParsing="false" onAction="#ponyoBtn" prefHeight="238.0" prefWidth="158.0" styleClass="btns" stylesheets="@../CSS/dashboard.css">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <ImageView fitHeight="233.0" fitWidth="161.0" layoutX="343.0" layoutY="131.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/The%20Art%20of%20the%20Wind%20Rises.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="54.1" radius="27.035" width="56.04">
+               <color>
+                  <Color red="0.3166666626930237" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <Button fx:id="thewindrisesbtn" layoutX="343.0" layoutY="129.0" mnemonicParsing="false" onAction="#thewindrisesBtn" prefHeight="238.0" prefWidth="162.0" styleClass="btns" stylesheets="@../CSS/dashboard.css">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.10745614022016525" green="0.023879142478108406" blue="0.859649121761322" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <ImageView fitHeight="234.0" fitWidth="156.0" layoutX="557.0" layoutY="130.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/One%20Piece%20Film_%20Red%20(2022)%20Online%20Stream.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="36.58" radius="23.1425" width="57.99">
+               <color>
+                  <Color red="1.0" green="0.10000000149011612" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <Button fx:id="onepiecebtn" layoutX="557.0" layoutY="129.0" mnemonicParsing="false" onAction="#onepieceBtn" prefHeight="235.0" prefWidth="157.0" styleClass="btns" stylesheets="@../CSS/dashboard.css">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button fx:id="anime2action" layoutX="358.0" layoutY="50.0" mnemonicParsing="false" onAction="#anime2Action" prefHeight="25.0" prefWidth="83.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="anime2all" layoutX="161.0" layoutY="50.0" mnemonicParsing="false" onAction="#anime2All" prefHeight="23.0" prefWidth="85.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="horrorbtn" layoutX="457.0" layoutY="50.0" mnemonicParsing="false" onAction="#horrorBtn" prefHeight="25.0" prefWidth="82.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="romancebtn" layoutX="555.0" layoutY="48.0" mnemonicParsing="false" onAction="#romanceBtn" prefHeight="16.0" prefWidth="83.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Label layoutX="729.0" layoutY="17.0" text="USER" textFill="WHITE" />
+      <Button layoutX="399.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="68.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="anime2home" layoutX="285.0" layoutY="13.0" mnemonicParsing="false" onAction="#anime2Home" prefHeight="25.0" prefWidth="51.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="animelogout" layoutX="470.0" layoutY="13.0" mnemonicParsing="false" onAction="#animeLogout" prefHeight="25.0" prefWidth="56.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+
+.btns{
+    
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    
+}
+.btns:hover{
+    
+    -fx-background-color:#fffefe46;
+}
+
+.errorbtn:hover{
+    -fx-background-color:rgba(178, 47, 47, 0.685);
+}
+.buttongif{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+   
+   }
+   .buttongif:hover{
+       -fx-background-color:#ffffff65;
+   }
+   
+   

@@ -1,0 +1,73 @@
+.bg-form{
+    -fx-background-color:linear-gradient(to top right, #1e242e, #ae2d3c)
+}
+.close{
+ -fx-background-color:transparent;
+ -fx-cursor:hand;
+
+}
+.close:hover{
+    -fx-background-color:#ff5151;
+}
+
+.minimize{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.minimize:hover{
+    -fx-background-color:#c5273f;
+}
+
+.textfield{
+    -fx-background-color:transparent;
+    -fx-text-inner-color:#fff;
+    -fx-border-color:#d63333;
+    -fx-border-width: 0px 0px .4px 0px;
+    -fx-text-size:13px;
+}
+.textfield:focused{
+    -fx-border-color:#fb6363;
+    -fx-border-width:0px 0px 1px 0px;
+}
+
+.login-btn{
+    -fx-scale-x:1;
+    -fx-scale-y:1;
+    -fx-transition: all 0.5;
+    -fx-background-color:linear-gradient(to bottom right, #f4f6fb, #111c26);
+    -fx-background-radius:8px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-cursor:hand;
+}
+.login-btn:hover{
+    -fx-scale-x: 1.1;
+    -fx-background-color:linear-gradient(to bottom right, #9d9fa4, #15181c);
+}
+
+.hyperlink{
+    -fx-underline:false;
+    -fx-text-fill:#fb6363;
+    -fx-border-color:transparent;
+    -fx-border-width:0px;
+}
+.hyperlink:hover{
+    -fx-text-fill:#ff7b7b;
+}
+
+.signup-btn{
+    -fx-scale-x:1;
+    -fx-scale-y:1;
+    -fx-transition: all 0.5;
+    -fx-background-color:linear-gradient(to bottom right, #b6b9b8, #0f1010);
+    -fx-background-radius:8px;
+    -fx-cursor:hand;
+    -fx-font-size:14px;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+}
+.signup-btn:hover{
+    -fx-scale-x: 1.1;
+-fx-background-color:linear-gradient(to bottom right, #818181, #141918);
+}
+

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.movieController">
+   <children>
+      <ImageView fitHeight="460.0" fitWidth="812.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/GROUP%2313_MOVIE_DESIGN%20(4).jpg" />
+         </image>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.4736842215061188" green="0.3274853825569153" blue="0.3274853825569153" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <Button fx:id="movie2home" layoutX="269.0" layoutY="14.0" mnemonicParsing="false" onAction="#movie2Home" prefHeight="19.0" prefWidth="47.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <ImageView fitHeight="160.0" fitWidth="101.0" layoutX="141.0" layoutY="92.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/ponio.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="32.68" radius="13.8925" width="24.89">
+               <color>
+                  <Color green="0.05000000074505806" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect></ImageView>
+      <Button fx:id="ponyobtn" layoutX="141.0" layoutY="92.0" mnemonicParsing="false" onAction="#ponyoBtn" prefHeight="160.0" prefWidth="101.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <ImageView fitHeight="160.0" fitWidth="102.0" layoutX="280.0" layoutY="92.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/The%20Art%20of%20the%20Wind%20Rises.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="28.79" radius="13.895" width="28.79">
+               <color>
+                  <Color red="0.1324290633201599" green="0.0030051982030272484" blue="0.9736841917037964" />
+               </color>
+            </DropShadow>
+         </effect></ImageView>
+      <Button fx:id="thewindrisesbtn" layoutX="280.0" layoutY="92.0" mnemonicParsing="false" onAction="#thewindrisesBtn" prefHeight="160.0" prefWidth="102.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <ImageView fitHeight="160.0" fitWidth="103.0" layoutX="421.0" layoutY="92.0" pickOnBounds="true">
+         <effect>
+            <DropShadow height="30.73" radius="16.325" width="36.57">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <image>
+            <Image url="@../../../../Downloads/five%20breakups%20and%20a%20romance.jpg" />
+         </image></ImageView>
+      <Button fx:id="fbaarbtn" layoutX="421.0" layoutY="92.0" mnemonicParsing="false" onAction="#fbaarBtn" prefHeight="160.0" prefWidth="103.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <ImageView fitHeight="160.0" fitWidth="102.0" layoutX="559.0" layoutY="92.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/everythingeverywhereallatonce.jpg" />
+         </image>
+         <effect>
+            <DropShadow radius="10.9725" width="24.89">
+               <color>
+                  <Color red="1.0" />
+               </color>
+            </DropShadow>
+         </effect></ImageView>
+      <Button fx:id="eeaaobtn" layoutX="559.0" layoutY="92.0" mnemonicParsing="false" onAction="#eeaaoBtn" prefHeight="160.0" prefWidth="102.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <ImageView fitHeight="160.0" fitWidth="102.0" layoutX="559.0" layoutY="266.0" pickOnBounds="true">
+         <effect>
+            <DropShadow height="26.84" radius="12.432500000000001" width="24.89">
+               <color>
+                  <Color red="0.9385964870452881" green="0.0724225714802742" blue="0.0724225714802742" />
+               </color>
+            </DropShadow>
+         </effect>
+         <image>
+            <Image url="@../../../../Downloads/sawmovie.jpg" />
+         </image></ImageView>
+      <Button fx:id="sawbtn" layoutX="559.0" layoutY="266.0" mnemonicParsing="false" onAction="#sawBtn" prefHeight="160.0" prefWidth="102.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <ImageView fitHeight="160.0" fitWidth="105.0" layoutX="421.0" layoutY="266.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/394706028_854109889510500_6175424818928491133_n.png" />
+         </image>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="1.0" green="0.06790123134851456" blue="0.06790123134851456" />
+               </color>
+            </DropShadow>
+         </effect></ImageView>
+      <Button fx:id="screambtn" layoutX="421.0" layoutY="266.0" mnemonicParsing="false" onAction="#screamBtn" prefHeight="160.0" prefWidth="106.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <ImageView fitHeight="161.0" fitWidth="102.0" layoutX="280.0" layoutY="266.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/one%20piece%20film%20red%20poster%20en%202022%20_%20One%20piece%20film,%20Image%20film,%20Fond%20d'ecran%20dessin.jpg" />
+         </image>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.05000000074505806" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect></ImageView>
+      <Button fx:id="onepiecebtn" layoutX="280.0" layoutY="266.0" mnemonicParsing="false" onAction="#onepieceBtn" prefHeight="160.0" prefWidth="102.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <ImageView fitHeight="161.0" fitWidth="103.0" layoutX="140.0" layoutY="266.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/The%20Handmaiden.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="17.11" radius="11.46" width="30.73">
+               <color>
+                  <Color red="0.008771929889917374" green="0.0067684645764529705" blue="0.0067684645764529705" />
+               </color>
+            </DropShadow>
+         </effect></ImageView>
+      <Button fx:id="handmaidenbtn" layoutX="140.0" layoutY="266.0" mnemonicParsing="false" onAction="#handmaidenBtn" prefHeight="162.0" prefWidth="102.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="toanime" layoutX="261.0" layoutY="50.0" mnemonicParsing="false" onAction="#toAnime" prefHeight="23.0" prefWidth="86.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="toanime1" layoutX="362.0" layoutY="50.0" mnemonicParsing="false" onAction="#toAnime" prefHeight="25.0" prefWidth="84.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="horrorbtn" layoutX="461.0" layoutY="49.0" mnemonicParsing="false" onAction="#horrorBtn" prefHeight="24.0" prefWidth="85.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="romancebtn" layoutX="561.0" layoutY="49.0" mnemonicParsing="false" onAction="#romanceBtn" prefHeight="25.0" prefWidth="85.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+      <Button fx:id="movie2login" layoutX="528.0" layoutY="14.0" mnemonicParsing="false" onAction="#movie2Login" prefHeight="25.0" prefWidth="61.0" styleClass="btns" stylesheets="@../CSS/dashboard.css" />
+   </children>
+</AnchorPane>
